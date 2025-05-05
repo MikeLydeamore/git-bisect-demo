@@ -1,6 +1,5 @@
 square <- function(x) {
-  res35 <- x + x
-  return(res35) 
+  return(x * x)  # Fix the bug (it was previously x + x)
 }
 
 cube <- function(x) {
